@@ -80,7 +80,7 @@ function inspirationalGenerator() {
       randomMessage = '\" Out of the mountain of despair, a stone of hope \" - Martin Luther King .Jr';
       break;
     case 4:
-      randomMessage = '\" Life is 10% what happens to you abd 90% how to react to it\"';
+      randomMessage = '\" Life is 10% what happens to you and 90% how to react to it\"';
       break;
     case 5:
       randomMessage = ' \" It always seems impossible until it\'s done.\" - Nelson Mandela ';
