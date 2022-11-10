@@ -26,14 +26,16 @@ function spiritualGenerator() {
       break;
     case 2:
       randomMessage = 'The darkest nights produce the brightest stars';
-      break
+      break;
     case 3:
       randomMessage = '\" Many of the truths that we cling to depend greatly on our point of view\" ';
+      break;
     case 4:
       randomMessage = '\"You will face many defeats in life, but never let yourself be defeated.\" ';
+      break;
     case 5:
       randomMessage = '\" Create a life that feels good on the inside, not just one that looks good on the outside\" ';
-      break
+      break;
     case 6:
       randomMessage = '\" The truth shall set you free but first will shatter your illusions \"';
       break;
@@ -73,14 +75,16 @@ function inspirationalGenerator() {
       break;
     case 2:
       randomMessage = 'A little progress each day adds up to BIG results';
-      break
+      break;
     case 3:
       randomMessage = '\" Out of the mountain of despair, a stone of hope \" - Martin Luther King .Jr';
+      break;
     case 4:
       randomMessage = '\" Life is 10% what happens to you abd 90% how to react to it\"';
+      break;
     case 5:
       randomMessage = ' \" It always seems impossible until it\'s done.\" - Nelson Mandela ';
-      break
+      break;
     case 6:
       randomMessage = 'Accept no one\'s definition of your life. Define yourself. ';
       break;
@@ -121,14 +125,16 @@ function funnyGenerator() {
       break;
     case 2:
       randomMessage = 'When all else fails, there\'s always delusion.';
-      break
+      break;
     case 3:
       randomMessage = 'Come to the dark side...... We have cookies!';
+      break;
     case 4:
       randomMessage = 'We didn\'t under estimate them, they were just better than we thought';
+      break;
     case 5:
       randomMessage = 'I am not lazy... ...I am on energy saving mode.';
-      break
+      break;
     case 6:
       randomMessage = 'Just wing it.';
       break;
@@ -160,5 +166,5 @@ function randomGenerator() {
   };
 };
 
-var funny = document.getElementById('random');
-funny.addEventListener('click', randomGenerator, 'false');
+var random = document.getElementById('random');
+random.addEventListener('click', randomGenerator, 'false');
